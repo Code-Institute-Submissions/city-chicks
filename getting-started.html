@@ -4,66 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/accordion.css">
+    
     <title>Home</title>
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">
-            Image logo
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">
+        Image logo
 
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/getting-started.html">Getting Started</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/additional-resources.html">Resources</a>
-              </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/warning.html">Warnings</a>
-              </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/sign-up.html">Sign Up</a>
-              </li>
-          </ul>
-        </div>
-      </nav>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/getting-started.html">Getting Started</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/warning.html">Warnings</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/additional-resources.html">Resources</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/sign-up.html">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
       <main role="main" class="container-fluid">
           <div class="row">
             <div class="col">
-
+Congratulations on your decision to grow your own eggs at home!
+Below are 5 initial steps to get you started on your journey of keeping laying hens in your garden!
             </div>
           </div>
-          <div class="row">
-            <div class="col container">
 
-              
-              <!-- These variables help keep track of the input name and ID-->
-              <!-- currentTab helps keep track of each individual input-->
-              <!-- tabControlName is used as a unique identifier for the accordion-->
+          <div class="row">
+            <!-- Accordion for large screen size -->
+            <div class="col container-fluid d-none d-md-block accordion-lg-container">
+
               <ul>
                 <li>
                   <!-- Using radio inputs means only one can be selected at a time-->
                   <!-- The ID must be unique so the label will point to the input-->
                   <input id="rad1" type="radio" name="rad" checked="checked"/>
                   <label for="rad1">
-                    <div>Just keep going with longer text</div>
+                    <div>Setting up their home</div>
                   </label>
                   <div class="accslide">
-                    <div class="content">
-                      <h1>Just keep going with longer text</h1>
-                      <p>Lorem ipsum...</p>
+                    <div class="content ">
+                      <h3>Setting up their home</h3>
+                      <p>You will need to make sure you have enough space to house your chickens in your backyard
+                        Two square meters are required for every 4 hens you keep. Build or buy a coop from here xxxxxlinkxxxxx.
+                        Have water and food dispensers ready.
+                      </p>
                     </div>
                   </div>
                 </li>
@@ -72,12 +76,18 @@
                   <!-- The ID must be unique so the label will point to the input-->
                   <input id="rad2" type="radio" name="rad"/>
                   <label for="rad2">
-                    <div>Second panel</div>
+                    <div>Acquiring the hens</div>
                   </label>
                   <div class="accslide">
-                    <div class="content">
-                      <h1>Second panel</h1>
-                      <p>Lorem ipsum...</p>
+                    <div class="content ">
+                      <h3>Acquiring the hens</h3>
+                      <p>There are two popular options here, you could either buy brand new hens from a breeder, or if 
+                        you want to be more adventurous, you can adopt hens after they have been rescued from battery farms.
+                        Below are links to where you can get either of these and also some pros and cons you should consider
+                        before making your choice.
+
+                        xxxx pros and cons of each herexxxx
+                      </p>
                     </div>
                   </div>
                 </li>
@@ -86,12 +96,14 @@
                   <!-- The ID must be unique so the label will point to the input-->
                   <input id="rad3" type="radio" name="rad"/>
                   <label for="rad3">
-                    <div>Third panel</div>
+                    <div>Food and medicine</div>
                   </label>
                   <div class="accslide">
-                    <div class="content">
-                      <h1>Third panel</h1>
-                      <p>Lorem ipsum...</p>
+                    <div class="content ">
+                      <h3>Food and medicine</h3>
+                      <p>Before you collect your hens, you will want to stock up on some feed, bedding, accessories and medicine.
+                        We have added some great links to the resources page for you to get acess to all the things
+                        you need. </p>
                     </div>
                   </div>
                 </li>
@@ -100,21 +112,101 @@
                   <!-- The ID must be unique so the label will point to the input-->
                   <input id="rad4" type="radio" name="rad"/>
                   <label for="rad4">
-                    <div>Fourth panel</div>
+                    <div>Bringing the hens home</div>
                   </label>
                   <div class="accslide">
-                    <div class="content">
-                      <h1>Fourth panel</h1>
-                      <p>Lorem ipsum...</p>
+                    <div class="content   ">
+                      <h3>Bringing the hens home</h3>
+                      <p>Once you have your hen home set up, all you need to do is collect them and bring them home. 
+                        Your hens will take a few days to settle in to their new environment, it is recommended that you 
+                        keep an eye on them and visit them as often as you are able to, to make sure they are getting on 
+                        alright.
+                      </p>
                     </div>
                   </div>
                 </li>
               </ul>
 
-
-
-
             </div> 
+
+            <!-- Accordion for small and medium screen size -->
+            <div class="accordion-sm-container d-md-none">
+              <div class="accordion" id="accordion-sm">
+                  <div >
+                      <div id="heading-1">
+                          <h2>
+                              <button type="button" class="btn" data-toggle="collapse" data-target="#collapse-1">
+                                  1. Setting up their home
+                              </button>									
+                          </h2>
+                      </div>
+                      <div id="collapse-1" class="collapse" aria-labelledby="heading-1" data-parent="#accordion-sm">
+                          <div >
+                              <p>You will need to make sure you have enough space to house your chickens in your backyard
+                                  Two square meters are required for every 4 hens you keep. Build or buy a coop from here xxxxxlinkxxxxx.
+                                  Have water and food dispensers ready.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div >
+                      <div  id="headingTwo">
+                          <h2>
+                              <button type="button" class="btn" data-toggle="collapse" data-target="#collapse-2">
+                                  2. Acquiring the hens
+                              </button>									
+                          </h2>
+                      </div>
+                      <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordion-sm">
+                          <div >
+                              <p>There are two popular options here, you could either buy brand new hens from a breeder, or if 
+                                  you want to be more adventurous, you can adopt hens after they have been rescued from battery farms.
+                                  Below are links to where you can get either of these and also some pros and cons you should consider
+                                  before making your choice.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div >
+                      <div id="heading-3">
+                          <h2>
+                              <button type="button" class="btn " data-toggle="collapse" data-target="#collapse-3">
+                                  3. Food and medicine
+                              </button>									
+                          </h2>
+                      </div>
+                      <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordion-sm">
+                          <div >
+                              <p>Before you collect your hens, you will want to stock up on some feed, bedding, accessories and medicine.
+                                  We have added some great links to the resources page for you to get acess to all the things
+                                  you need.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div >
+                      <div  id="heading-4">
+                          <h2 >
+                              <button type="button" class="btn " data-toggle="collapse" data-target="#collapse-4">
+                                  4. Bringing the hens home
+                              </button>									
+                          </h2>
+                      </div>
+                      <div id="collapse-4" class="collapse" aria-labelledby="heading-4" data-parent="#accordion-sm">
+                          <div >
+                              <p>Once you have your hen home set up, all you need to do is collect them and bring them home. 
+                                  Your hens will take a few days to settle in to their new environment, it is recommended that you 
+                                  keep an eye on them and visit them as often as you are able to, to make sure they are getting on 
+                                  alright.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>            
           </div>
       </main>
     
