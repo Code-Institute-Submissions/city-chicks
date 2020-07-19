@@ -5,14 +5,43 @@
 /* -----------------------------colours */
 
 
+/* -----------------------------images */
+
+div .hero-img  {
+    background-image: url(/assets/images/rob-tol-Tkjq9thFqYI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position-y: -200px ;
+    
+    background-size: cover ;
+    overflow: hidden;
+    height: 600px;
+}
+
 /* -----------------------------general items */
 .uppercase {
     text-transform: uppercase;
 }
 
-
-/* -----------------------------colours */
-
-h2{
-    font-family: 'Darker Grotesque', 'sans-serif';    
+hr {
+    width: 50%;
 }
+
+/* -----------------------------fonts */
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Darker Grotesque', 'sans-serif';    
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* -----------------------------sign up for events*/
+.card-image {
+     background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+
+
