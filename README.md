@@ -44,7 +44,7 @@ Deployed to gh pages using the following stesp
 - git pull origin master
 - git add .
 - git commit -m 'deploying website to gh-pages'
-- git push
+- git push origin gh-pages
  
 
 ## Credits
