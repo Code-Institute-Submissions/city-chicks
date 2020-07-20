@@ -1,4 +1,4 @@
-<img src="/assets/images/chicken-grass-range-hen-poultry-meadow-brown.jpg" style="margin: 0;">
+<img src="assets/images/chicken-grass-range-hen-poultry-meadow-brown.jpg" style="margin: 0;">
 
 # CITY-CHICKS README
 City chicks aims to provide resources and ideas for those wanting to start rearing chickens in their
