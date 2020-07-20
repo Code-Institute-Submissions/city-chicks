@@ -1,4 +1,4 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="/assets/images/chicken-grass-range-hen-poultry-meadow-brown.jpg" style="margin: 0;">
 
 # CITY-CHICKS README
 City chicks aims to provide resources and ideas for those wanting to start rearing chickens in their
@@ -25,20 +25,32 @@ The user stories I  came up with for this site are as follows:
 
 
 ## Technologies used
-https://getbootstrap.com/docs/4.0/getting-started/introduction/ 
+- Bootstrap https://getbootstrap.com/docs/4.0/getting-started/introduction/
+- CSS https://devdocs.io/css/   
+- HTML https://devdocs.io/html/
+- Font Awesome https://fontawesome.com/v4.7.0/   
 
 
+## Testing
+- clicked on all links to make sure they go to the correct path, where the did not, I updated the paths accordingly
+- burger menu icon was appearing when scaling down screen size to medium, but the menu items were not collapsing.  I had to change the breakpoint of the collapse field to fix this.
+
+- Sign up form: tried to submit the form with an incorrect email address (no at sign), this did not allow me to submit the form, so was working as expected.
 
 
-## Code sources
- Accordion code was copied from the following website and is not my own work. This code was used to be able
- to get a horizontal accordion across two pages so that space could be saved. This was a very clever piece of
- code, utilising radio buttons, transitions and transforms to get the effect I was looking for.
-- https://codepen.io/milesmanners/pen/QEQPjw 
-- Copyright (c) 2020 by Miles Manners (https://codepen.io/milesmanners/pen/QEQPjw)
+## Credits
+### Content
+- Most of the content used in this site comes from my housemate who is growing her own chickens, she has told me many stories over the last few months.
+- I also got some content from the following websites:
+1. https://www.thehappychickencoop.com/10-tips-for-keeping-backyard-chickens-for-beginners/
+2. https://poultrykeeper.com/general-chickens/beginners-guide-to-keeping-chickens/
+3. https://www.farmfowl.com/rescuing-hens-in-ireland/
 
+### Media
+- The photos used on this website were obtained from unsplash.com 
 
-## How to contribute
-Contact Nicwas at nicwas@gmail.com for any queries or comments, any will be appreciated!
+### Acknowledgements
+- Jess was the inspiration for this project
+- Thank you to Jeanne, Glen and Rachel for doing a lot of user testing for me
 
 
