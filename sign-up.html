@@ -7,16 +7,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/sign-up.css">
+    
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Home</title>
 </head>
 <body>
     
   <nav class="navbar navbar-expand-lg navbar-light ">
-    <a class="navbar-brand uppercase" id="logo" href="/">
+    <a  id="logo" href="/">
+    </a>
+    <a class="navbar-brand uppercase"href="/">
         City Chicks
-
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" 
     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +39,7 @@
             <a class="nav-link" href="/additional-resources.html">Resources</a>
         </li>
         <li class="nav-item pr-2">
-            <a class="nav-link active" href="/sign-up.html">Sign Up</a>
+            <a class="nav-link active" href="/sign-up.html">Events</a>
         </li>
       </ul>
     </div>
@@ -50,40 +51,45 @@
         <div class="col">
           <h2 class="section-heading uppercase">Join us
           </h2>
-          <p>We are hosting a number of webinars over the coming months and also private visits to have a look at our setup, bring 
+          <hr>
+          <p class="text-center">We are hosting a number of webinars over the coming months and also private visits to have a look at our setup, bring 
               your kids to see if they will be comfortable around hens!
           </p>
         </div>
     </div>
-    <div class="sign-up-img">
-        <div class="row ">
-          <div class="col-lg">
-            <h4 class="section-heading uppercase">Webinar
+    <div >
+        <div id="sign-up-img" class="row">
+          <div class="section-event col-lg">
+            <h4 class="mt-5 uppercase">Webinar
             </h4>
+            <hr>
             <p>Feeding your hens healthy treats
             </p>
             <p>August 2020
             </p>
           </div>
-          <div class="col-lg">
-            <h4 class="section-heading uppercase">Visit our city chicks
+          <div class="section-event col-lg">
+            <h4 class="mt-5  uppercase">Visit our city chicks
             </h4>
+            <hr>
             <p>Bring your family to come see the setup
             </p>
             <p>September 2020
             </p>
           </div>
-          <div class="col-lg">
-            <h4 class="section-heading uppercase">Online Q&A
+          <div class="section-event col-lg">
+            <h4 class="mt-5  uppercase">Online Q&A
             </h4>
+            <hr>
             <p>Ask us anything!
             </p>
             <p>October 2020
             </p>
           </div>
-          <div class="col-lg">
-            <h4 class="section-heading uppercase">Webinar 
+          <div class="section-event col-lg">
+            <h4 class="mt-5 uppercase">Webinar 
             </h4>
+            <hr>
             <p>Taking care of rescue hens
             </p>
             <p>November 2020
@@ -91,86 +97,83 @@
           </div>
         </div>
     </div>
+
+    <form>
+      <div class="card sign-up-form p-5">
+        <h2>Sign up for an event today!</h2>
+        <hr class="text-center">
+        <div class="form-group row">
+          <label for="full-name" class="col-sm-4 col-form-label">Name</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="full-name" placeholder="Full Name">
+          </div>
+        </div>
+        
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-4 col-form-label">Email</label>
+          <div class="col-sm-8">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="input-comment" class="col-sm-4 col-form-label">Comments</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="input-comment" placeholder="Comments">
+          </div>
+        </div>
+        
+        
+
+        </fieldset>
+        <div class="form-group row">
+          <div class="col-sm-4">Select events</div>
+          <div class="col-sm-8">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label pl-5" for="gridCheck1">
+                Webinar in August
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label pl-5" for="gridCheck1">
+                Visit us in September
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label pl-5" for="gridCheck1">
+                Online Q&A in October
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label pl-5" for="gridCheck1">
+                Webinar in November
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-sign-up">Sign up!</button>
+          </div>
+        </div>
+      </div>  
+    </form>
+
+
+
 </main>
 
 
 
-<!-- Sign Up Modal -->
-<div class="modal fade" id="darkModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog form-dark" role="document">
-    <!--Content-->
-    <div    class="modal-content card card-image" 
-            >
-      <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
-        <!--Header-->
-        <div class="modal-header text-center pb-4">
-          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>Register</strong> <a
-              class="green-text font-weight-bold"><strong> now!</strong></a></h3>
-          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <!--Body-->
-        <div class="modal-body">
-          <!--Body-->
-          <div class="md-form mb-5">
-            <input type="email" id="Form-email5" class="form-control validate white-text">
-            <label data-error="wrong" data-success="right" for="Form-email5">Your email</label>
-          </div>
-
-          <div class="md-form pb-3">
-            <input type="password" id="Form-pass5" class="form-control validate white-text">
-            <label data-error="wrong" data-success="right" for="Form-pass5">Your password</label>
-            <div class="form-group mt-4">
-              <input class="form-check-input" type="checkbox" id="checkbox624">
-              <label for="checkbox624" class="white-text form-check-label">Accept the<a href="#" class="green-text font-weight-bold">
-                  Terms and Conditions</a></label>
-            </div>
-          </div>
-
-          <!--Grid row-->
-          <div class="row d-flex align-items-center mb-4">
-
-            <!--Grid column-->
-            <div class="text-center mb-3 col-md-12">
-              <button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Sign up</button>
-            </div>
-            <!--Grid column-->
-
-          </div>
-          <!--Grid row-->
-
-          <!--Grid row-->
-          <div class="row">
-
-            <!--Grid column-->
-            <div class="col-md-12">
-              <p class="font-small white-text d-flex justify-content-end">Have an account? <a href="#" class="green-text ml-1 font-weight-bold">
-                  Log in</a></p>
-            </div>
-            <!--Grid column-->
-
-          </div>
-          <!--Grid row-->
-
-        </div>
-      </div>
-    </div>
-    <!--/.Content-->
-  </div>
-</div>
-<!-- Modal -->
-
-<div class="text-center">
-  <a href="" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#darkModalForm">Register for an event</a>
-</div>
 
 
-<footer class="container-fluid">
+<footer class="container-fluid mt-5">
   <div id="footer-details" class="row">
       <div class="col-sm-6">
-          <h5 class="uppercase general-sub">Contact Us</h5>
+          <h5 class="uppercase general-sub mb-5">Contact Us</h5>
             <ul>
               <li>
                 <i class="fa fa-phone pr-2" aria-hidden="true"></i>
@@ -185,6 +188,7 @@
       
       <div class="col-sm-6">
           <h5 class="uppercase general-sub">Connect with us</h5>
+          <hr>
           <ul class="list-inline connect-links">
               <li class="list-inline-item">
                   <a target="_blank" href="#">

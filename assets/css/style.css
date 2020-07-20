@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script:wght@400;500;600;700&family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Epilogue:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Monoton&family=Raleway+Dots&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 
-/* -----------------------------colours */
-
 
 /* -----------------------------images and logo */
 
@@ -40,37 +38,161 @@ div .hero-img  {
     background-position: center ;
     background-attachment: fixed;
     background-size: cover ;
-    height: 400px;
+    height: 350px;
     position: relative;
+}
+
+.jumbotron p {
+    font-size: 15px;
 }
 
 nav  {
     background-color: #fafafa;
 }
 
+.navbar-brand {
+    font-size: 30px;
+}
+
+
+
 /* GETTING STARTED */
+
+
+div #start-home, 
+div #start-acquire,
+div #start-food,
+div #start-bring-home {
+    background-color: brown;
+    background-repeat: no-repeat;
+    background-position: center ;
+
+
+    overflow: hidden;
+
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+
+    margin: 0 auto;
+}
+
 div #start-home {
     background-image: url(/assets/images/sophie-mikat-xD-d18uQwUI-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom ;
-    background-attachment: fixed;
-    background-size: cover ;
-    overflow: hidden;
-    
+    background-size: 120% ;
+}
+
+div #start-acquire {
+    background-image: url(/assets/images/chicken-hen-running-animal-poultry-agriculture-farm.jpg);
+    background-size: 150% ;
+}
+
+div #start-food {
+    background-image: url(/assets/images/jeremy-ricketts-h4zs8fbybq4-unsplash.jpg);
+    background-size: 160% ;
+}
+
+div #start-bring-home {
+    background-image: url(/assets/images/tyler-finck-vJzW6f5GwFA-unsplash.jpg);
+    background-size: 120% ;
 }
 
 /* EVENTS AND SIGN UP */
 
-div .sign-up-img {
-    background-image: url(/assets/images/rob-tol-Tkjq9thFqYI-unsplash.jpg);
+div #sign-up-img {
+    background-image: url(/assets/images/chickens-poultry-running-happy-hens\ \(2\).jpg);
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: top ;
     background-attachment: fixed;
     background-size: cover ;
-    height: 450px;
+    height: 100%;
     background-color: GREY;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
+.section-event {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 30px 15px;
+}
+
+.section-event p {
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/* ADDITIONAL RESOURCES */
+
+div .resource-img  {
+    background-image: url(/assets/images/boba-jaglicic-kztp-VpjlBA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-attachment: fixed;
+    background-size: cover ;
+    height: 350px;
+    position: relative;
+}
+
+.resource-overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 50%;
+    min-width: 300px;
+    float: left;
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+
+ul li a:hover {
+    color: brown;
+}
+
+/* SAFETY */
+
+div #predator-img  {
+    background-image: url(/assets/images/scott-walsh-CQl3Y5bV6FA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 150% ;
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+
+div #pecking-img  {
+    background-image: url(/assets/images/jairo-alzate-Z8KdK-5auxc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-size: 150% ;
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+/* SIGN UP */
+.sign-up-form {
+   width: 50%;
+   margin: 0 auto; 
+}
+
+.btn-sign-up {
+    background-color: brown;
+    color: white;
+}
+
+.btn-sign-up:hover {
+    background-color: rgb(179, 87, 87);
+    color: white;
+}
 /* -----------------------------general items */
 .uppercase {
     text-transform: uppercase;
@@ -102,6 +224,7 @@ hr {
     text-align: center
 }
 
+
 .card a {
     text-decoration: none;
     color: inherit;
@@ -118,6 +241,7 @@ h1, h2, h3, h4, h5 {
     text-align: center;
     margin: 0;
     color: brown;
+    font-weight: 700;
 }
 
 h1 {
@@ -135,17 +259,12 @@ h5 {
     float: left;
     padding: 10px;
     margin-left: 40px;
+    font-size: 10px;
 }
 
 
 
-/* -----------------------------sign up for events*/
-.card-image {
-     background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg');
-     background-repeat: no-repeat;
-     background-size: cover;
 
-}
 
 
 
@@ -186,7 +305,7 @@ footer {
 
 .connect-links li a i:hover {
     background: white;
-    color:  #2c658b;
+    color:  brown;
 }
 
 footer h1,footer  h2,footer  h3,footer  h4,footer  h5 {
@@ -196,4 +315,10 @@ footer h1,footer  h2,footer  h3,footer  h4,footer  h5 {
 
 #footer-details {
     padding: 20px;
+}
+
+footer hr {
+    width: 25%;
+    height: 1px;
+    text-align: center
 }
