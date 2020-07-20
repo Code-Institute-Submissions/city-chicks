@@ -5,16 +5,70 @@
 /* -----------------------------colours */
 
 
-/* -----------------------------images */
+/* -----------------------------images and logo */
+
+/* header */
+
+#logo {
+	width: 80px;
+	height: 110px;
+    margin: 10px auto 10px;
+    
+    background-image: url(/assets/images/matthew-henry-nvFpb_MMRj8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: grey;
+
+
+	-webkit-border-radius: 50%/60% 60% 40% 40%;
+	-moz-border-radius: 50%/60% 60% 40% 40%;
+	border-radius: 50%/60% 60% 40% 40%;
+
+	/* -webkit-box-shadow: 0px 0px 20px #D5D3D3  , 0px 0px 20px #D5D3D3 ;
+	-moz-box-shadow: 0px 0px 20px #D5D3D3  , 0px 0px 20px #D5D3D3 ;
+    box-shadow: 0px 0px 20px #D5D3D3  , 0px 0px 20px #D5D3D3 ;
+     */
+    -moz-box-shadow:    5px 5px 5px 5px #ccc;
+    -webkit-box-shadow: 5px 5px 5px 5px #ccc;
+    box-shadow:         5px 5px 5px 5px #ccc;
+}
 
 div .hero-img  {
     background-image: url(/assets/images/rob-tol-Tkjq9thFqYI-unsplash.jpg);
     background-repeat: no-repeat;
-    background-position-y: -200px ;
-    
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover ;
+    height: 400px;
+    position: relative;
+}
+
+nav  {
+    background-color: #fafafa;
+}
+
+/* GETTING STARTED */
+div #start-home {
+    background-image: url(/assets/images/sophie-mikat-xD-d18uQwUI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-attachment: fixed;
     background-size: cover ;
     overflow: hidden;
-    height: 600px;
+    
+}
+
+/* EVENTS AND SIGN UP */
+
+div .sign-up-img {
+    background-image: url(/assets/images/rob-tol-Tkjq9thFqYI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover ;
+    height: 450px;
+    background-color: GREY;
 }
 
 /* -----------------------------general items */
@@ -22,18 +76,68 @@ div .hero-img  {
     text-transform: uppercase;
 }
 
-hr {
-    width: 50%;
+ul {
+    list-style: none;
+  }
+
+
+.card {
+    min-height: 220px;
+
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+ }
+
+.card:hover {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+
 }
 
-/* -----------------------------fonts */
+hr {
+    width: 50%;
+    height: 5px;
+    text-align: center
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* -----------------------------fonts, padding and margins */
 
 h1, h2, h3, h4, h5 {
     font-family: 'Darker Grotesque', 'sans-serif';    
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
+    color: brown;
 }
+
+h1 {
+    font-size: 250%;
+}
+
+h5 {
+    font-size: 120%;
+}
+
+.hero-overlay {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 45%;
+    min-width: 300px;
+    float: left;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+
 
 /* -----------------------------sign up for events*/
 .card-image {
@@ -45,3 +149,51 @@ h1, h2, h3, h4, h5 {
 
 
 
+
+
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.connect-links {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.connect-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.connect-links li a i:hover {
+    background: white;
+    color:  #2c658b;
+}
+
+footer h1,footer  h2,footer  h3,footer  h4,footer  h5 {
+    color: white;
+}
+
+
+#footer-details {
+    padding: 20px;
+}
