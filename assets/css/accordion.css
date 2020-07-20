@@ -1,14 +1,6 @@
 /* -----------------------------fonts */
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script:wght@400;500;600;700&family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Epilogue:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Monoton&family=Raleway+Dots&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
-
-
 /* FORM */
 .content {
     overflow: hidden;
@@ -17,7 +9,6 @@
     margin: 0;
     
 }
-
 
 .accordion-lg-container {
     padding-top: 30px;
@@ -49,13 +40,9 @@ label {
   border-left: dashed 1px rgb(116, 107, 107);
 }
 
-
-
 li:nth-child(n) > input + label {
   background: rgba(255, 255, 255, 0.5);
 } 
-
-
 
 label:hover,
 li:nth-child(n) > input + label:hover {
@@ -142,20 +129,3 @@ width: calc(90% - 160px);
 li:nth-child(7) input[type="radio"]:checked ~ .accslide {
 width: calc(90% - 160px);
 }
-
-
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  
-    .content {
-
-    }
-}
- 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
-    .content {
-    }
-}
-
-

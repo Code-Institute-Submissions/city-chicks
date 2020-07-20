@@ -1,11 +1,7 @@
 /* -----------------------------fonts */
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script:wght@400;500;600;700&family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Epilogue:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Monoton&family=Raleway+Dots&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-
-
-/* -----------------------------images and logo */
-
-/* header */
+/* HEADER */
 
 #logo {
 	width: 80px;
@@ -54,19 +50,15 @@ nav  {
     font-size: 30px;
 }
 
-
-
 /* GETTING STARTED */
-
 
 div #start-home, 
 div #start-acquire,
 div #start-food,
 div #start-bring-home {
-    background-color: brown;
+    background-color: rgb(165, 42, 42);
     background-repeat: no-repeat;
     background-position: center ;
-
 
     overflow: hidden;
 
@@ -83,7 +75,7 @@ div #start-home {
 }
 
 div #start-acquire {
-    background-image: url(/assets/images/chicken-hen-running-animal-poultry-agriculture-farm.jpg);
+    background-image: url(/assets/images/chicken-grass-range-hen-poultry-meadow-brown.jpg);
     background-size: 150% ;
 }
 
@@ -121,7 +113,6 @@ div #sign-up-img {
     text-align: center;
 }
 
-
 /* ADDITIONAL RESOURCES */
 
 div .resource-img  {
@@ -144,9 +135,8 @@ div .resource-img  {
     font-size: 20px;
 }
 
-
 ul li a:hover {
-    color: brown;
+    color: rgb(165, 42, 42);
 }
 
 /* SAFETY */
@@ -161,7 +151,6 @@ div #predator-img  {
     width: 150px;
     border-radius: 50%;
     margin: 0 auto;
-
 }
 
 
@@ -175,17 +164,17 @@ div #pecking-img  {
     width: 150px;
     border-radius: 50%;
     margin: 0 auto;
-
 }
 
 /* SIGN UP */
 .sign-up-form {
    width: 50%;
    margin: 0 auto; 
+   min-width: 380px;
 }
 
 .btn-sign-up {
-    background-color: brown;
+    background-color: rgb(165, 42, 42);
     color: white;
 }
 
@@ -201,7 +190,6 @@ div #pecking-img  {
 ul {
     list-style: none;
   }
-
 
 .card {
     min-height: 220px;
@@ -224,13 +212,16 @@ hr {
     text-align: center
 }
 
-
 .card a {
     text-decoration: none;
     color: inherit;
 }
 
-
+a {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
 
 /* -----------------------------fonts, padding and margins */
 
@@ -240,7 +231,7 @@ h1, h2, h3, h4, h5 {
     text-transform: uppercase;
     text-align: center;
     margin: 0;
-    color: brown;
+    color: rgb(165, 42, 42);
     font-weight: 700;
 }
 
@@ -261,15 +252,6 @@ h5 {
     margin-left: 40px;
     font-size: 10px;
 }
-
-
-
-
-
-
-
-
-
 
 /* ----------------------------------------Footer */
 
@@ -305,7 +287,7 @@ footer {
 
 .connect-links li a i:hover {
     background: white;
-    color:  brown;
+    color:  rgb(165, 42, 42);
 }
 
 footer h1,footer  h2,footer  h3,footer  h4,footer  h5 {
@@ -322,3 +304,14 @@ footer hr {
     height: 1px;
     text-align: center
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+    
+    h1 {
+        font-size: 200% ;
+    }
+}
+
+ 
+
