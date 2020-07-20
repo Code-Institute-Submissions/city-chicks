@@ -8,7 +8,7 @@
 	height: 110px;
     margin: 10px auto 10px;
     
-    background-image: url(assets/images/matthew-henry-nvFpb_MMRj8-unsplash.jpg);
+    background-image: url(/city-chicks/assets/images/matthew-henry-nvFpb_MMRj8-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -29,7 +29,7 @@
 }
 
 div .hero-img  {
-    background-image: url(assets/images/rob-tol-Tkjq9thFqYI-unsplash.jpg);
+    background-image: url(/city-chicks/assets/images/rob-tol-Tkjq9thFqYI-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center ;
     background-attachment: fixed;
@@ -70,29 +70,29 @@ div #start-bring-home {
 }
 
 div #start-home {
-    background-image: url(assets/images/sophie-mikat-xD-d18uQwUI-unsplash.jpg);
+    background-image: url(/city-chicks/assets/images/sophie-mikat-xD-d18uQwUI-unsplash.jpg);
     background-size: 120% ;
 }
 
 div #start-acquire {
-    background-image: url(assets/images/chicken-grass-range-hen-poultry-meadow-brown.jpg);
+    background-image: url(/city-chicks/assets/images/chicken-grass-range-hen-poultry-meadow-brown.jpg);
     background-size: 150% ;
 }
 
 div #start-food {
-    background-image: url(assets/images/jeremy-ricketts-h4zs8fbybq4-unsplash.jpg);
+    background-image: url(/city-chicks/assets/images/jeremy-ricketts-h4zs8fbybq4-unsplash.jpg);
     background-size: 160% ;
 }
 
 div #start-bring-home {
-    background-image: url(assets/images/tyler-finck-vJzW6f5GwFA-unsplash.jpg);
+    background-image: url(/city-chicks/assets/images/tyler-finck-vJzW6f5GwFA-unsplash.jpg);
     background-size: 120% ;
 }
 
 /* EVENTS AND SIGN UP */
 
 div #sign-up-img {
-    background-image: url(assets/images/chickens-poultry-running-happy-hens\ \(2\).jpg);
+    background-image: url(/city-chicks/assets/images/chickens-poultry-running-happy-hens\ \(2\).jpg);
     background-repeat: no-repeat;
     background-position: top ;
     background-attachment: fixed;
@@ -116,7 +116,7 @@ div #sign-up-img {
 /* ADDITIONAL RESOURCES */
 
 div .resource-img  {
-    background-image: url(assets/images/boba-jaglicic-kztp-VpjlBA-unsplash.jpg);
+    background-image: url(/city-chicks/assets/images/boba-jaglicic-kztp-VpjlBA-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: bottom ;
     background-attachment: fixed;
@@ -142,7 +142,7 @@ ul li a:hover {
 /* SAFETY */
 
 div #predator-img  {
-    background-image: url(assets/images/scott-walsh-CQl3Y5bV6FA-unsplash.jpg);
+    background-image: url(/city-chicks/assets/images/scott-walsh-CQl3Y5bV6FA-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center ;
     background-size: 150% ;
@@ -155,7 +155,7 @@ div #predator-img  {
 
 
 div #pecking-img  {
-    background-image: url(assets/images/jairo-alzate-Z8KdK-5auxc-unsplash.jpg);
+    background-image: url(/city-chicks/assets/images/jairo-alzate-Z8KdK-5auxc-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: right ;
     background-size: 150% ;
