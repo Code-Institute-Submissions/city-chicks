@@ -3,17 +3,16 @@
 # CITY-CHICKS README
 
 
-## Images
-- https://www.pxfuel.com/
-- https://www.pikist.com/
-- feathers floating https://toppng.com/floating-falling-feather-feather-feathers-feathers-feather-PNG-free-PNG-Images_173078
+## How to contribute
+Contact Nicwas at nicwas@gmail.com for any queries or comments, any will be appreciated!
 
-## External resources
-### 1 Products to buy in Ireland
-- Chicken coops, feed, vermon sprays etc --> https://www.farmfowl.com/ 
-- Live laying hens, and merchandise https://www.freewaypoultry.ie/
-- 
+## Future Development
+### Items unfinished
+- accordion on small screen hidden for the safety page, this needs to be incorporated
+- accordion on small screen for getting started page not styled nicely, can be improved
 
+### Future Additions
+- Community map where people can register themselves to host events and also show their location on a Google Map
 
 
 
