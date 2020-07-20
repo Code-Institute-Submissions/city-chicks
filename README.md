@@ -38,6 +38,15 @@ The user stories I  came up with for this site are as follows:
 - Sign up form: tried to submit the form with an incorrect email address (no at sign), this did not allow me to submit the form, so was working as expected.
 
 
+## Deployment
+Deployed to gh pages using the following stesp
+- Git checkout gh-pages 
+- git pull origin master
+- git add .
+- git commit -m 'deploying website to gh-pages'
+- git push
+ 
+
 ## Credits
 ### Content
 - Most of the content used in this site comes from my housemate who is growing her own chickens, she has told me many stories over the last few months.
